@@ -1,0 +1,92 @@
+.graduates_container li {
+  list-style-type: none;
+}
+
+.graduates_container .main_figure img {
+  width: 100%;
+  height: 400px;
+}
+
+.graduates_container .main_figure span {
+  position: absolute;
+  color: white;
+  font-size: 50px;
+  top: 20%;
+  left: 45%;
+}
+
+.graduates_container .main_graduates img {
+  width: 500px;
+}
+
+.graduates_container .graduates_profile img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border-color: #444;
+  border-style: solid;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.graduates_container .graduates_container .figure p {
+  color: white;
+}
+
+.graduates_container .main_graduates p {
+  text-align: center;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.graduates_container .main_graduates .graduate_links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 50px;
+}
+
+.graduates_container .main_graduates .right_nav_links {
+  width: 260px;
+}
+
+.graduates_container .main_graduates .right_nav_links a:hover {
+  border-left: solid 2px lightgreen;
+}
+
+.graduates_container .main_graduates .right_nav_links a:active {
+  border-left: solid 2px black;
+}
+
+.graduates_container .main_graduates .right_nav_links li {
+  margin: 0 0 50px 0;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.graduates_container a {
+  text-decoration: none;
+  color: #444;
+  margin-left: 5px;
+}
+
+.graduates_container .graduates_profile .profile-links .figure {
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  column-gap: 50px;
+}
+
+.graduates_container .graduates_profile .profile-links li {
+  margin: 0 0 9px 0;
+  font-weight: 700;
+}
+
+.graduates_container .graduates_profile .profile-links a {
+  color: blue;
+  margin-left: 0px;
+  font-weight: 100;
+}
+
+.graduates_container .graduates_profile .profile-links p {
+  margin: 0 0 12px 0;
+  color: #444;
+}
