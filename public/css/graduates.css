@@ -15,8 +15,16 @@
   left: 45%;
 }
 
-.graduates_container .main_graduates img {
-  width: 500px;
+.graduates_container .main_graduates img a:hover:after {
+  /* width: 100%; */
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  background: url("http://i.stack.imgur.com/P1ELC.png") center no-repeat;
+  background-size: 50px;
 }
 
 .graduates_container .graduates_profile img {
